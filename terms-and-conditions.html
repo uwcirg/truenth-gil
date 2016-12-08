@@ -29,6 +29,17 @@
     <meta name="msapplication-square150x150logo" content="./images/mediumtile.png">
     <meta name="msapplication-wide310x150logo" content="./images/widetile.png">
     <meta name="msapplication-square310x310logo" content="./images/largetile.png">
+    <script>
+    var url = "https://stg.us.truenth.org/user/sign-in";
+    $.ajax({
+        url: url,
+        cache: false,
+        success: function(response) {
+            result = $(response).find("#csrf_token");
+            $("#modal-login > div > div > div > form").append('<input id="csrf_token" name="csrf_token" type="hidden" value="'+ result.attr("value") +'">');
+        }
+    });
+    </script>
   </head>
   <body class="page-about theme--intro-light">
     <!--if lt IE 8
@@ -157,9 +168,10 @@
                 <use xlink:href="#Google-Icon"></use>
               </svg>Log in with Google</a>
             <div class="box-modal__divider"></div>
-            <form>
-              <input type="text" placeholder="Email Address">
-              <input type="password" placeholder="Password"><a href="https://stg.us.truenth.org/user/sign-in" class="button button-large button--teal" type="submit">Log In</a>
+            <form action="https://stg.us.truenth.org/user/sign-in" method="POST" class="form" role="form">
+              <input name="email" type="text" placeholder="Email Address">
+              <input name="password" type="password" placeholder="Password">
+              <input class="button button-large button--teal" type="submit" value="Log In">
             </form>
           </div>
         </div>
