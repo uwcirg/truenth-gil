@@ -6,9 +6,9 @@
     <title>TrueNTH</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="./scripts/jquery.min.js"><\/script>')</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="/scripts/jquery.min.js"><\/script>')</script>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="./styles/app.css"><!--[if lte IE 6]>
+    <link rel="stylesheet" href="/styles/app.css"><!--[if lte IE 6]>
 <style>#top, #bottom, #left, #right { display: none; }</style>
 <![endif]-->
   </head>
@@ -23,18 +23,18 @@
       <div class="side-nav__inner">
         <h3 class="side-nav__heading">Navigation</h3>
         <ul class="side-nav-items">
-          <li class="side-nav-items__item side-nav-items__item--home"><a href=../>Home</a></li>
-          <li class="side-nav-items__item"><a href=./about.html>About TrueNTH</a></li>
-          <li class="side-nav-items__item side-nav-items__item--has-icon side-nav-items__item--accentuated"><a href="./decision-support.html">
+          <li class="side-nav-items__item side-nav-items__item--home"><a href=/>Home</a></li>
+          <li class="side-nav-items__item"><a href=/about.html>About TrueNTH</a></li>
+          <li class="side-nav-items__item side-nav-items__item--has-icon side-nav-items__item--accentuated"><a href="/decision-support.html">
               <svg width="32" height="32">
                 <use xlink:href="#DS-Icon-Nav"></use>
               </svg>Decision Support</a></li>
-          <li class="side-nav-items__item side-nav-items__item--has-icon side-nav-items__item--accentuated"><a href="./symptom-tracker.html">
+          <li class="side-nav-items__item side-nav-items__item--has-icon side-nav-items__item--accentuated"><a href="/symptom-tracker.html">
               <svg width="32" height="32">
                 <use xlink:href="#ST-Icon-Nav"></use>
               </svg>Symptom Tracker</a></li>
-          <li class="side-nav-items__item"><a href=./what-is-prostate-cancer.html>Prostate Cancer Facts</a></li>
-          <li class="side-nav-items__item"><a href=./contact.html>Contact</a></li>
+          <li class="side-nav-items__item"><a href=/what-is-prostate-cancer.html>Prostate Cancer Facts</a></li>
+          <li class="side-nav-items__item"><a href=/contact.html>Contact</a></li>
           <li class="side-nav-items__button"><a data-toggle="modal" data-target="#modal-register">Join Us</a></li>
           <li class="side-nav-items__button"><a data-toggle="modal" data-target="#modal-login">Log In</a></li>
         </ul>
@@ -51,7 +51,7 @@
       </header>
       <header class="header header--logged-in">
         <div class="header__menu"><a class="button button--small button--white-trans button--back-arrow"><figure></figure>TrueNTH.org</a></div><a class="logo" href="/"></a>
-        <div class="header__meta"><img class="header__meta__avatar" src="./images/profile-image@2x.png">
+        <div class="header__meta"><img class="header__meta__avatar" src="/images/profile-image@2x.png">
           <div class="btn-group"><a class="menu button button--small button--white profile-toggle button dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <figure></figure></a>
             <div class="dropdown-menu"><a class="dropdown-item" href="#">My Profile</a><a class="dropdown-item" href="#">Decision Support Tool</a><a class="dropdown-item" href="#">Symptom Tracker Tool</a><a class="dropdown-item" href="#">Log Out</a></div>
@@ -65,17 +65,17 @@
         </div>
         <ul class="nav-list">
           <li class="nav-list__item"><a href="/">Home</a></li>
-          <li class="nav-list__item"><a href="./about.html">About</a></li>
-          <li class="nav-list__item"><a href="./decision-support.html">Decision Support</a></li>
-          <li class="nav-list__item"><a href="./symptom-tracker.html">Symptom Tracker</a></li>
+          <li class="nav-list__item"><a href="/about.html">About</a></li>
+          <li class="nav-list__item"><a href="/decision-support.html">Decision Support</a></li>
+          <li class="nav-list__item"><a href="/symptom-tracker.html">Symptom Tracker</a></li>
         </ul>
         <ul class="nav-list nav-list--lower">
-          <li class="nav-list__item"><a href="./what-is-prostate-cancer.html">Prostate Cancer Facts</a></li>
+          <li class="nav-list__item"><a href="/what-is-prostate-cancer.html">Prostate Cancer Facts</a></li>
         </ul>
         <ul class="nav-list nav-list--lower">
-          <li class="nav-list__item"><a href="./terms-and-conditions.html">Terms and Conditions</a></li>
-          <li class="nav-list__item"><a href="./legal.html">Legal</a></li>
-          <li class="nav-list__item"><a href="./contact.html">Contact</a></li>
+          <li class="nav-list__item"><a href="/terms-and-conditions.html">Terms and Conditions</a></li>
+          <li class="nav-list__item"><a href="/legal.html">Legal</a></li>
+          <li class="nav-list__item"><a href="/contact.html">Contact</a></li>
         </ul>
         <div class="footer__logo-area"><a href="http://www.movember.com" target="_blank">
             <figure class="footer__logo--movember"></figure></a></div>
@@ -87,7 +87,7 @@
         <div class="modal-content box-modal">
           <div class="box-modal__inner"><a class="box-modal__close" type="button" data-dismiss="modal" aria-label="Close"></a>
             <h3 class="box-modal__title">Join Us!</h3>
-            <p class="box-modal__copy">It’s going to take a group effort to improve the prostate cancer experience for future generations.</p><a href="https://stg.us.truenth.org/go" class="button button-large button--teal">Create Account</a>
+            <p class="box-modal__copy">It’s going to take a group effort to improve the prostate cancer experience for future generations.</p><a class="button button-large button--teal">Create Account</a>
           </div>
           <div class="box-modal__footer"><span class="box-modal__sub">Want to Receive News?</span>
             <form class="js-mock-submit"><span class="submitted-text">Thank you!</span>
@@ -102,23 +102,23 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content box-modal box-modal--login">
           <div class="box-modal__inner"><a class="box-modal__close" type="button" data-dismiss="modal" aria-label="Close"></a>
-            <h3 class="box-modal__title">Login</h3><a href="https://stg.us.truenth.org/login/facebook/" class="button button--facebook button-large button--teal button--has-svg">
+            <h3 class="box-modal__title">Login</h3><a class="button button--facebook button-large button--teal button--has-svg">
               <svg width="15" height="31">
                 <use xlink:href="#Facebook-Icon"></use>
-              </svg>Log in with Facebook</a><a href="https://stg.us.truenth.org/login/google/" class="button button--google button-large button--teal button--has-svg">
+              </svg>Log in with Facebook</a><a class="button button--google button-large button--teal button--has-svg">
               <svg width="20" height="31">
                 <use xlink:href="#Google-Icon"></use>
               </svg>Log in with Google</a>
             <div class="box-modal__divider"></div>
             <form>
               <input type="text" placeholder="Email Address">
-              <input type="password" placeholder="Password"><a href="https://stg.us.truenth.org/user/sign-in" class="button button-large button--teal" type="submit">Log In</a>
+              <input type="text" placeholder="Password"><a class="button button-large button--teal" type="submit">Log In</a>
             </form>
           </div>
         </div>
       </div>
     </div>
-    <script src="./scripts/vendor.js"></script>
-    <script src="./scripts/app.js"></script>
+    <script src="/scripts/vendor.js"></script>
+    <script src="/scripts/app.js"></script>
   </body>
 </html>
