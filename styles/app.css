@@ -4172,9 +4172,9 @@ select {
   height: 70px;
   padding-left: 15px;
   padding-right: 15px;
-  background: #D2D1C4 url("/images/Arrow-Down-Light-Brown.svg") no-repeat scroll 95% 50%; }
+  background: #D2D1C4 url("../images/Arrow-Down-Light-Brown.svg") no-repeat scroll 95% 50%; }
   .field select:focus {
-    background: #f9f9f8 url("/images/Arrow-Down-Light-Brown.svg") no-repeat scroll 95% 50%; }
+    background: #f9f9f8 url("../images/Arrow-Down-Light-Brown.svg") no-repeat scroll 95% 50%; }
   .field select option {
     padding-left: 15px;
     padding-right: 15px; }
@@ -4506,7 +4506,7 @@ a:hover {
   height: 92px;
   background: #fff;
   z-index: 1500;
-  background: transparent url("/images/header-logged-in.jpg") no-repeat scroll center top;
+  background: transparent url("../images/header-logged-in.jpg") no-repeat scroll center top;
   background-size: cover; }
   @media (max-width: 767px) {
     .header--logged-in {
@@ -4516,7 +4516,7 @@ a:hover {
       height: 92px;
       background: #fff;
       z-index: 1500;
-      background: transparent url("/images/header-logged-in.jpg") no-repeat scroll center top;
+      background: transparent url("../images/header-logged-in.jpg") no-repeat scroll center top;
       background-size: cover;
       padding-left: 15px;
       padding-right: 15px; } }
@@ -4533,7 +4533,7 @@ a:hover {
         background-image: url(../images/logo-white@2x.png);
         background-size: 124px 54px; } }
   .is-scrolled .header--logged-in {
-    background: transparent url("/images/header-logged-in.jpg") no-repeat scroll center top;
+    background: transparent url("../images/header-logged-in.jpg") no-repeat scroll center top;
     background-size: cover; }
     .is-scrolled .header--logged-in .logo {
       margin-left: -62px; }
@@ -5095,14 +5095,14 @@ figure.nav-overlay {
         padding: 0; } }
 
 .module-wrap--confidence {
-  background: transparent url("/images/DS-Background.jpg") no-repeat scroll center center;
+  background: transparent url("../images/DS-Background.jpg") no-repeat scroll center center;
   background-size: cover; }
   @media (max-width: 767px) {
     .module-wrap--confidence {
       min-height: none; } }
 
 .module-wrap--symptom {
-  background: transparent url("/images/ST-Background.jpg") no-repeat scroll center center;
+  background: transparent url("../images/ST-Background.jpg") no-repeat scroll center center;
   background-size: cover; }
   @media (max-width: 767px) {
     .module-wrap--symptom {
